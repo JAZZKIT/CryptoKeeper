@@ -7,25 +7,73 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B00CCBA52939F64A00653D6C /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00CCBA42939F64A00653D6C /* CoreDataManager.swift */; };
+		B00CCBA7293A7C2300653D6C /* Date+.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00CCBA6293A7C2300653D6C /* Date+.swift */; };
 		B08000AD2937FCF900CB0AA5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B08000AC2937FCF900CB0AA5 /* AppDelegate.swift */; };
 		B08000AF2937FCF900CB0AA5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B08000AE2937FCF900CB0AA5 /* SceneDelegate.swift */; };
-		B08000B12937FCF900CB0AA5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B08000B02937FCF900CB0AA5 /* ViewController.swift */; };
-		B08000B42937FCF900CB0AA5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B08000B22937FCF900CB0AA5 /* Main.storyboard */; };
 		B08000B72937FCF900CB0AA5 /* CryptoKeeper.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B08000B52937FCF900CB0AA5 /* CryptoKeeper.xcdatamodeld */; };
 		B08000B92937FCFC00CB0AA5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B08000B82937FCFC00CB0AA5 /* Assets.xcassets */; };
 		B08000BC2937FCFC00CB0AA5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B08000BA2937FCFC00CB0AA5 /* LaunchScreen.storyboard */; };
+		B08000C42938AC2000CB0AA5 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B08000C32938AC2000CB0AA5 /* MainViewController.swift */; };
+		B08000CC2938AEC100CB0AA5 /* TransactionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B08000CB2938AEC100CB0AA5 /* TransactionTableViewCell.swift */; };
+		B08000D22938AF7A00CB0AA5 /* GradientButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B08000D12938AF7A00CB0AA5 /* GradientButton.swift */; };
+		B08000E12938B41C00CB0AA5 /* BrandonGrotesque-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B08000DB2938B41C00CB0AA5 /* BrandonGrotesque-Bold.ttf */; };
+		B08000E22938B41C00CB0AA5 /* BrandonGrotesque-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B08000DC2938B41C00CB0AA5 /* BrandonGrotesque-Black.ttf */; };
+		B08000E32938B41C00CB0AA5 /* BrandonGrotesque-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B08000DD2938B41C00CB0AA5 /* BrandonGrotesque-Medium.ttf */; };
+		B08000E42938B41C00CB0AA5 /* BrandonGrotesque-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B08000DE2938B41C00CB0AA5 /* BrandonGrotesque-Regular.ttf */; };
+		B08000E52938B41C00CB0AA5 /* BrandonGrotesque-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B08000DF2938B41C00CB0AA5 /* BrandonGrotesque-Thin.ttf */; };
+		B08000E62938B41C00CB0AA5 /* BrandonGrotesque-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B08000E02938B41C00CB0AA5 /* BrandonGrotesque-Light.ttf */; };
+		B08000E82938B6D400CB0AA5 /* TransactionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B08000E72938B6D400CB0AA5 /* TransactionViewController.swift */; };
+		B08000EA2938BEBB00CB0AA5 /* UIView+.swift in Sources */ = {isa = PBXBuildFile; fileRef = B08000E92938BEBB00CB0AA5 /* UIView+.swift */; };
+		B08000EF2938EC3400CB0AA5 /* TextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = B08000EE2938EC3400CB0AA5 /* TextField.swift */; };
+		B08000F22939302900CB0AA5 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B08000F12939302900CB0AA5 /* Constants.swift */; };
+		B08000F4293936A300CB0AA5 /* UIImage+.swift in Sources */ = {isa = PBXBuildFile; fileRef = B08000F3293936A300CB0AA5 /* UIImage+.swift */; };
+		B0817B06293B6D9D00A70BA6 /* AlertViewContorller.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0817B05293B6D9D00A70BA6 /* AlertViewContorller.swift */; };
+		B0817B09293B7D2300A70BA6 /* CKTitleLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0817B08293B7D2300A70BA6 /* CKTitleLabel.swift */; };
+		B0817B0C293B876400A70BA6 /* ContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0817B0B293B876400A70BA6 /* ContainerView.swift */; };
+		B0817B0E293B87C300A70BA6 /* CKBodyLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0817B0D293B87C300A70BA6 /* CKBodyLabel.swift */; };
+		B0817B10293B884D00A70BA6 /* UIViewController+.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0817B0F293B884D00A70BA6 /* UIViewController+.swift */; };
+		B0817B12293B8A3C00A70BA6 /* CKButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0817B11293B8A3C00A70BA6 /* CKButton.swift */; };
+		B0817B14293B8CE900A70BA6 /* String+.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0817B13293B8CE900A70BA6 /* String+.swift */; };
+		B0817B17293BA27400A70BA6 /* Coin.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0817B16293BA27400A70BA6 /* Coin.swift */; };
+		B0817B19293BA2E700A70BA6 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0817B18293BA2E700A70BA6 /* NetworkManager.swift */; };
+		B0817B1B293BA4C200A70BA6 /* CKError.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0817B1A293BA4C200A70BA6 /* CKError.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B00CCBA42939F64A00653D6C /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		B00CCBA6293A7C2300653D6C /* Date+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+.swift"; sourceTree = "<group>"; };
 		B08000A92937FCF900CB0AA5 /* CryptoKeeper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CryptoKeeper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B08000AC2937FCF900CB0AA5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B08000AE2937FCF900CB0AA5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		B08000B02937FCF900CB0AA5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		B08000B32937FCF900CB0AA5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B08000B62937FCF900CB0AA5 /* CryptoKeeper.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CryptoKeeper.xcdatamodel; sourceTree = "<group>"; };
 		B08000B82937FCFC00CB0AA5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B08000BB2937FCFC00CB0AA5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B08000BD2937FCFC00CB0AA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B08000C32938AC2000CB0AA5 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		B08000CB2938AEC100CB0AA5 /* TransactionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionTableViewCell.swift; sourceTree = "<group>"; };
+		B08000D12938AF7A00CB0AA5 /* GradientButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientButton.swift; sourceTree = "<group>"; };
+		B08000DB2938B41C00CB0AA5 /* BrandonGrotesque-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BrandonGrotesque-Bold.ttf"; sourceTree = "<group>"; };
+		B08000DC2938B41C00CB0AA5 /* BrandonGrotesque-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BrandonGrotesque-Black.ttf"; sourceTree = "<group>"; };
+		B08000DD2938B41C00CB0AA5 /* BrandonGrotesque-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BrandonGrotesque-Medium.ttf"; sourceTree = "<group>"; };
+		B08000DE2938B41C00CB0AA5 /* BrandonGrotesque-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BrandonGrotesque-Regular.ttf"; sourceTree = "<group>"; };
+		B08000DF2938B41C00CB0AA5 /* BrandonGrotesque-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BrandonGrotesque-Thin.ttf"; sourceTree = "<group>"; };
+		B08000E02938B41C00CB0AA5 /* BrandonGrotesque-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BrandonGrotesque-Light.ttf"; sourceTree = "<group>"; };
+		B08000E72938B6D400CB0AA5 /* TransactionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionViewController.swift; sourceTree = "<group>"; };
+		B08000E92938BEBB00CB0AA5 /* UIView+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+.swift"; sourceTree = "<group>"; };
+		B08000EE2938EC3400CB0AA5 /* TextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextField.swift; sourceTree = "<group>"; };
+		B08000F12939302900CB0AA5 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		B08000F3293936A300CB0AA5 /* UIImage+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+.swift"; sourceTree = "<group>"; };
+		B0817B05293B6D9D00A70BA6 /* AlertViewContorller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertViewContorller.swift; sourceTree = "<group>"; };
+		B0817B08293B7D2300A70BA6 /* CKTitleLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CKTitleLabel.swift; sourceTree = "<group>"; };
+		B0817B0B293B876400A70BA6 /* ContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerView.swift; sourceTree = "<group>"; };
+		B0817B0D293B87C300A70BA6 /* CKBodyLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CKBodyLabel.swift; sourceTree = "<group>"; };
+		B0817B0F293B884D00A70BA6 /* UIViewController+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+.swift"; sourceTree = "<group>"; };
+		B0817B11293B8A3C00A70BA6 /* CKButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CKButton.swift; sourceTree = "<group>"; };
+		B0817B13293B8CE900A70BA6 /* String+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+.swift"; sourceTree = "<group>"; };
+		B0817B16293BA27400A70BA6 /* Coin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coin.swift; sourceTree = "<group>"; };
+		B0817B18293BA2E700A70BA6 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		B0817B1A293BA4C200A70BA6 /* CKError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CKError.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +87,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B00CCBA32939F62900653D6C /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				B00CCBA42939F64A00653D6C /* CoreDataManager.swift */,
+				B0817B18293BA2E700A70BA6 /* NetworkManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
 		B08000A02937FCF900CB0AA5 = {
 			isa = PBXGroup;
 			children = (
@@ -58,16 +115,151 @@
 		B08000AB2937FCF900CB0AA5 /* CryptoKeeper */ = {
 			isa = PBXGroup;
 			children = (
-				B08000AC2937FCF900CB0AA5 /* AppDelegate.swift */,
-				B08000AE2937FCF900CB0AA5 /* SceneDelegate.swift */,
-				B08000B02937FCF900CB0AA5 /* ViewController.swift */,
-				B08000B22937FCF900CB0AA5 /* Main.storyboard */,
-				B08000B82937FCFC00CB0AA5 /* Assets.xcassets */,
-				B08000BA2937FCFC00CB0AA5 /* LaunchScreen.storyboard */,
+				B0817B15293BA26600A70BA6 /* Models */,
+				B00CCBA32939F62900653D6C /* Managers */,
+				B08000F02939301C00CB0AA5 /* Helpers */,
+				B08000D32938B01D00CB0AA5 /* Resources */,
+				B08000CA2938AE9900CB0AA5 /* Custom Views */,
+				B08000C72938AE5800CB0AA5 /* Extensions */,
+				B08000C62938ACD900CB0AA5 /* Screens */,
+				B08000C52938ACC800CB0AA5 /* Support */,
 				B08000BD2937FCFC00CB0AA5 /* Info.plist */,
 				B08000B52937FCF900CB0AA5 /* CryptoKeeper.xcdatamodeld */,
 			);
 			path = CryptoKeeper;
+			sourceTree = "<group>";
+		};
+		B08000C52938ACC800CB0AA5 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				B08000BA2937FCFC00CB0AA5 /* LaunchScreen.storyboard */,
+				B08000AC2937FCF900CB0AA5 /* AppDelegate.swift */,
+				B08000AE2937FCF900CB0AA5 /* SceneDelegate.swift */,
+				B08000B82937FCFC00CB0AA5 /* Assets.xcassets */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		B08000C62938ACD900CB0AA5 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				B08000C32938AC2000CB0AA5 /* MainViewController.swift */,
+				B08000E72938B6D400CB0AA5 /* TransactionViewController.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		B08000C72938AE5800CB0AA5 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				B08000E92938BEBB00CB0AA5 /* UIView+.swift */,
+				B08000F3293936A300CB0AA5 /* UIImage+.swift */,
+				B00CCBA6293A7C2300653D6C /* Date+.swift */,
+				B0817B0F293B884D00A70BA6 /* UIViewController+.swift */,
+				B0817B13293B8CE900A70BA6 /* String+.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		B08000CA2938AE9900CB0AA5 /* Custom Views */ = {
+			isa = PBXGroup;
+			children = (
+				B0817B0A293B875800A70BA6 /* Views */,
+				B0817B07293B7D0200A70BA6 /* Labels */,
+				B0817B04293B6CCC00A70BA6 /* ViewContollers */,
+				B08000ED2938EC1400CB0AA5 /* TextFields */,
+				B08000D02938AF6200CB0AA5 /* Buttons */,
+				B08000CF2938AF4000CB0AA5 /* Cells */,
+			);
+			path = "Custom Views";
+			sourceTree = "<group>";
+		};
+		B08000CF2938AF4000CB0AA5 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				B08000CB2938AEC100CB0AA5 /* TransactionTableViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		B08000D02938AF6200CB0AA5 /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				B08000D12938AF7A00CB0AA5 /* GradientButton.swift */,
+				B0817B11293B8A3C00A70BA6 /* CKButton.swift */,
+			);
+			path = Buttons;
+			sourceTree = "<group>";
+		};
+		B08000D32938B01D00CB0AA5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B08000D42938B05000CB0AA5 /* Fonts */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		B08000D42938B05000CB0AA5 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				B08000DC2938B41C00CB0AA5 /* BrandonGrotesque-Black.ttf */,
+				B08000DB2938B41C00CB0AA5 /* BrandonGrotesque-Bold.ttf */,
+				B08000E02938B41C00CB0AA5 /* BrandonGrotesque-Light.ttf */,
+				B08000DD2938B41C00CB0AA5 /* BrandonGrotesque-Medium.ttf */,
+				B08000DE2938B41C00CB0AA5 /* BrandonGrotesque-Regular.ttf */,
+				B08000DF2938B41C00CB0AA5 /* BrandonGrotesque-Thin.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		B08000ED2938EC1400CB0AA5 /* TextFields */ = {
+			isa = PBXGroup;
+			children = (
+				B08000EE2938EC3400CB0AA5 /* TextField.swift */,
+			);
+			path = TextFields;
+			sourceTree = "<group>";
+		};
+		B08000F02939301C00CB0AA5 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				B08000F12939302900CB0AA5 /* Constants.swift */,
+				B0817B1A293BA4C200A70BA6 /* CKError.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		B0817B04293B6CCC00A70BA6 /* ViewContollers */ = {
+			isa = PBXGroup;
+			children = (
+				B0817B05293B6D9D00A70BA6 /* AlertViewContorller.swift */,
+			);
+			path = ViewContollers;
+			sourceTree = "<group>";
+		};
+		B0817B07293B7D0200A70BA6 /* Labels */ = {
+			isa = PBXGroup;
+			children = (
+				B0817B08293B7D2300A70BA6 /* CKTitleLabel.swift */,
+				B0817B0D293B87C300A70BA6 /* CKBodyLabel.swift */,
+			);
+			path = Labels;
+			sourceTree = "<group>";
+		};
+		B0817B0A293B875800A70BA6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B0817B0B293B876400A70BA6 /* ContainerView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B0817B15293BA26600A70BA6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B0817B16293BA27400A70BA6 /* Coin.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,9 +320,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B08000E42938B41C00CB0AA5 /* BrandonGrotesque-Regular.ttf in Resources */,
 				B08000BC2937FCFC00CB0AA5 /* LaunchScreen.storyboard in Resources */,
+				B08000E12938B41C00CB0AA5 /* BrandonGrotesque-Bold.ttf in Resources */,
 				B08000B92937FCFC00CB0AA5 /* Assets.xcassets in Resources */,
-				B08000B42937FCF900CB0AA5 /* Main.storyboard in Resources */,
+				B08000E32938B41C00CB0AA5 /* BrandonGrotesque-Medium.ttf in Resources */,
+				B08000E22938B41C00CB0AA5 /* BrandonGrotesque-Black.ttf in Resources */,
+				B08000E62938B41C00CB0AA5 /* BrandonGrotesque-Light.ttf in Resources */,
+				B08000E52938B41C00CB0AA5 /* BrandonGrotesque-Thin.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,24 +338,35 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B08000B12937FCF900CB0AA5 /* ViewController.swift in Sources */,
+				B0817B06293B6D9D00A70BA6 /* AlertViewContorller.swift in Sources */,
+				B08000D22938AF7A00CB0AA5 /* GradientButton.swift in Sources */,
+				B0817B14293B8CE900A70BA6 /* String+.swift in Sources */,
+				B08000F22939302900CB0AA5 /* Constants.swift in Sources */,
+				B0817B19293BA2E700A70BA6 /* NetworkManager.swift in Sources */,
+				B08000C42938AC2000CB0AA5 /* MainViewController.swift in Sources */,
+				B0817B1B293BA4C200A70BA6 /* CKError.swift in Sources */,
+				B08000EF2938EC3400CB0AA5 /* TextField.swift in Sources */,
+				B0817B17293BA27400A70BA6 /* Coin.swift in Sources */,
+				B08000CC2938AEC100CB0AA5 /* TransactionTableViewCell.swift in Sources */,
 				B08000AD2937FCF900CB0AA5 /* AppDelegate.swift in Sources */,
+				B00CCBA7293A7C2300653D6C /* Date+.swift in Sources */,
+				B00CCBA52939F64A00653D6C /* CoreDataManager.swift in Sources */,
 				B08000B72937FCF900CB0AA5 /* CryptoKeeper.xcdatamodeld in Sources */,
+				B0817B09293B7D2300A70BA6 /* CKTitleLabel.swift in Sources */,
+				B0817B0E293B87C300A70BA6 /* CKBodyLabel.swift in Sources */,
+				B08000EA2938BEBB00CB0AA5 /* UIView+.swift in Sources */,
+				B0817B0C293B876400A70BA6 /* ContainerView.swift in Sources */,
+				B0817B10293B884D00A70BA6 /* UIViewController+.swift in Sources */,
+				B08000F4293936A300CB0AA5 /* UIImage+.swift in Sources */,
 				B08000AF2937FCF900CB0AA5 /* SceneDelegate.swift in Sources */,
+				B0817B12293B8A3C00A70BA6 /* CKButton.swift in Sources */,
+				B08000E82938B6D400CB0AA5 /* TransactionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		B08000B22937FCF900CB0AA5 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B08000B32937FCF900CB0AA5 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		B08000BA2937FCFC00CB0AA5 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -296,9 +504,10 @@
 				INFOPLIST_FILE = CryptoKeeper/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -324,9 +533,10 @@
 				INFOPLIST_FILE = CryptoKeeper/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

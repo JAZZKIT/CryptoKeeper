@@ -14,6 +14,8 @@ final class TransactionViewController: UIViewController {
     var categoryPicker = UIPickerView()
     var selectedCategory = "Groceries"
     
+    var presenter: TransactionPresenterProtocol?
+    
     private lazy var confirmTransactionButton: GradientButton = {
         let button = GradientButton(title: "Confirm Transaction", size: 20)
         button.gradientLayer.cornerRadius = 12
@@ -32,29 +34,13 @@ final class TransactionViewController: UIViewController {
     private func configureController() {
         view.backgroundColor = .systemBackground
         title = "New Transaction"
-        navigationItem.rightBarButtonItem = UIBarButtonItem.init(barButtonSystemItem: .close, target: self, action: #selector(dismissVC))
     }
 }
 
 // MARK: - Actions
 extension TransactionViewController {
-    @objc private func dismissVC() {
-        dismiss(animated: true)
-    }
-    
     @objc private func confirmTransaction() {
-        if textField.text == "" {
-            self.presentGFAlertOnMainThread(title: "Something went wrong", message: "Please fill the field😇", buttonTitle: "OK")
-        } else {
-            
-            if let amount = Double(textField.text ?? "0"), let balance = CoreDataManager.shared.getBalance(), balance.balance - amount >= 0 {
-                CoreDataManager.shared.saveTransaction(with: amount, category: selectedCategory)
-                CoreDataManager.shared.updateBalance(amount: amount, action: .outcome)
-                dismiss(animated: true)
-            } else {
-                self.presentGFAlertOnMainThread(title: "Opps..", message: "You run out of money💸", buttonTitle: "OK")
-            }
-        }
+        presenter?.saveTransaction(with: textField.text ?? "0", category: selectedCategory)
     }
 }
 
@@ -74,7 +60,6 @@ extension TransactionViewController: UITextFieldDelegate {
 
 // MARK: - UIPickerViewDelegate & UIPickerViewDataSource
 extension TransactionViewController: UIPickerViewDelegate, UIPickerViewDataSource {
-    
     func numberOfComponents(in pickerView: UIPickerView) -> Int {
         return 1
     }
@@ -139,6 +124,11 @@ extension TransactionViewController {
             confirmTransactionButton.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 50),
             confirmTransactionButton.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -50)
         ])
-        
+    }
+}
+
+extension TransactionViewController: TransactionViewProtocol {
+    func failure(error: CKError) {
+        self.presentGFAlertOnMainThread(title: "Something went wrong", message: error.rawValue, buttonTitle: "OK")
     }
 }

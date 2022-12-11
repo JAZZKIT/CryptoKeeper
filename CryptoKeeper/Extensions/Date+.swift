@@ -9,7 +9,7 @@ import Foundation
 
 extension Date {
     func toDay() -> String {
-        var dateFormatter = DateFormatter()
+        let dateFormatter = DateFormatter()
         dateFormatter.dateFormat = "d MMMM"
         return dateFormatter.string(from: self)
     }

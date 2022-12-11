@@ -9,6 +9,11 @@
 /* Begin PBXBuildFile section */
 		B00CCBA52939F64A00653D6C /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00CCBA42939F64A00653D6C /* CoreDataManager.swift */; };
 		B00CCBA7293A7C2300653D6C /* Date+.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00CCBA6293A7C2300653D6C /* Date+.swift */; };
+		B05348E129427ACB0099D5B6 /* AssemblyBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = B05348E029427ACB0099D5B6 /* AssemblyBuilder.swift */; };
+		B05348E429427AEB0099D5B6 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = B05348E329427AEB0099D5B6 /* Router.swift */; };
+		B05348ED29427FCB0099D5B6 /* MainPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B05348EC29427FCB0099D5B6 /* MainPresenter.swift */; };
+		B05348EF2943688D0099D5B6 /* TransactionPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B05348EE2943688D0099D5B6 /* TransactionPresenter.swift */; };
+		B05348F529452C8B0099D5B6 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B05348F429452C8B0099D5B6 /* MainView.swift */; };
 		B08000AD2937FCF900CB0AA5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B08000AC2937FCF900CB0AA5 /* AppDelegate.swift */; };
 		B08000AF2937FCF900CB0AA5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B08000AE2937FCF900CB0AA5 /* SceneDelegate.swift */; };
 		B08000B72937FCF900CB0AA5 /* CryptoKeeper.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B08000B52937FCF900CB0AA5 /* CryptoKeeper.xcdatamodeld */; };
@@ -27,7 +32,6 @@
 		B08000EA2938BEBB00CB0AA5 /* UIView+.swift in Sources */ = {isa = PBXBuildFile; fileRef = B08000E92938BEBB00CB0AA5 /* UIView+.swift */; };
 		B08000EF2938EC3400CB0AA5 /* TextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = B08000EE2938EC3400CB0AA5 /* TextField.swift */; };
 		B08000F22939302900CB0AA5 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B08000F12939302900CB0AA5 /* Constants.swift */; };
-		B08000F4293936A300CB0AA5 /* UIImage+.swift in Sources */ = {isa = PBXBuildFile; fileRef = B08000F3293936A300CB0AA5 /* UIImage+.swift */; };
 		B0817B06293B6D9D00A70BA6 /* AlertViewContorller.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0817B05293B6D9D00A70BA6 /* AlertViewContorller.swift */; };
 		B0817B09293B7D2300A70BA6 /* CKTitleLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0817B08293B7D2300A70BA6 /* CKTitleLabel.swift */; };
 		B0817B0C293B876400A70BA6 /* ContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0817B0B293B876400A70BA6 /* ContainerView.swift */; };
@@ -38,11 +42,17 @@
 		B0817B17293BA27400A70BA6 /* Coin.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0817B16293BA27400A70BA6 /* Coin.swift */; };
 		B0817B19293BA2E700A70BA6 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0817B18293BA2E700A70BA6 /* NetworkManager.swift */; };
 		B0817B1B293BA4C200A70BA6 /* CKError.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0817B1A293BA4C200A70BA6 /* CKError.swift */; };
+		B0ED8F922946428300572512 /* MainViewContorller+TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0ED8F912946428300572512 /* MainViewContorller+TableView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B00CCBA42939F64A00653D6C /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
 		B00CCBA6293A7C2300653D6C /* Date+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+.swift"; sourceTree = "<group>"; };
+		B05348E029427ACB0099D5B6 /* AssemblyBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssemblyBuilder.swift; sourceTree = "<group>"; };
+		B05348E329427AEB0099D5B6 /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		B05348EC29427FCB0099D5B6 /* MainPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPresenter.swift; sourceTree = "<group>"; };
+		B05348EE2943688D0099D5B6 /* TransactionPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionPresenter.swift; sourceTree = "<group>"; };
+		B05348F429452C8B0099D5B6 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		B08000A92937FCF900CB0AA5 /* CryptoKeeper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CryptoKeeper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B08000AC2937FCF900CB0AA5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B08000AE2937FCF900CB0AA5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -63,7 +73,6 @@
 		B08000E92938BEBB00CB0AA5 /* UIView+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+.swift"; sourceTree = "<group>"; };
 		B08000EE2938EC3400CB0AA5 /* TextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextField.swift; sourceTree = "<group>"; };
 		B08000F12939302900CB0AA5 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
-		B08000F3293936A300CB0AA5 /* UIImage+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+.swift"; sourceTree = "<group>"; };
 		B0817B05293B6D9D00A70BA6 /* AlertViewContorller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertViewContorller.swift; sourceTree = "<group>"; };
 		B0817B08293B7D2300A70BA6 /* CKTitleLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CKTitleLabel.swift; sourceTree = "<group>"; };
 		B0817B0B293B876400A70BA6 /* ContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerView.swift; sourceTree = "<group>"; };
@@ -74,6 +83,7 @@
 		B0817B16293BA27400A70BA6 /* Coin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coin.swift; sourceTree = "<group>"; };
 		B0817B18293BA2E700A70BA6 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		B0817B1A293BA4C200A70BA6 /* CKError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CKError.swift; sourceTree = "<group>"; };
+		B0ED8F912946428300572512 /* MainViewContorller+TableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MainViewContorller+TableView.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +106,78 @@
 			path = Managers;
 			sourceTree = "<group>";
 		};
+		B05348DF294275340099D5B6 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				B05348E629427E620099D5B6 /* Model */,
+				B05348E529427E5E0099D5B6 /* View */,
+				B05348E829427E6E0099D5B6 /* Presenter */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		B05348E229427AD80099D5B6 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				B08000AC2937FCF900CB0AA5 /* AppDelegate.swift */,
+				B08000AE2937FCF900CB0AA5 /* SceneDelegate.swift */,
+				B05348E029427ACB0099D5B6 /* AssemblyBuilder.swift */,
+				B05348E329427AEB0099D5B6 /* Router.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		B05348E529427E5E0099D5B6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B08000C32938AC2000CB0AA5 /* MainViewController.swift */,
+				B05348F429452C8B0099D5B6 /* MainView.swift */,
+				B0ED8F912946428300572512 /* MainViewContorller+TableView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B05348E629427E620099D5B6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B0817B16293BA27400A70BA6 /* Coin.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B05348E829427E6E0099D5B6 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				B05348EC29427FCB0099D5B6 /* MainPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		B05348E929427F9B0099D5B6 /* Transaction */ = {
+			isa = PBXGroup;
+			children = (
+				B05348EB29427FB10099D5B6 /* View */,
+				B05348EA29427FAA0099D5B6 /* Presenter */,
+			);
+			path = Transaction;
+			sourceTree = "<group>";
+		};
+		B05348EA29427FAA0099D5B6 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				B05348EE2943688D0099D5B6 /* TransactionPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		B05348EB29427FB10099D5B6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B08000E72938B6D400CB0AA5 /* TransactionViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		B08000A02937FCF900CB0AA5 = {
 			isa = PBXGroup;
 			children = (
@@ -115,14 +197,14 @@
 		B08000AB2937FCF900CB0AA5 /* CryptoKeeper */ = {
 			isa = PBXGroup;
 			children = (
-				B0817B15293BA26600A70BA6 /* Models */,
+				B05348E229427AD80099D5B6 /* Application */,
+				B08000C52938ACC800CB0AA5 /* Support */,
 				B00CCBA32939F62900653D6C /* Managers */,
 				B08000F02939301C00CB0AA5 /* Helpers */,
 				B08000D32938B01D00CB0AA5 /* Resources */,
 				B08000CA2938AE9900CB0AA5 /* Custom Views */,
 				B08000C72938AE5800CB0AA5 /* Extensions */,
-				B08000C62938ACD900CB0AA5 /* Screens */,
-				B08000C52938ACC800CB0AA5 /* Support */,
+				B08000C62938ACD900CB0AA5 /* Modules */,
 				B08000BD2937FCFC00CB0AA5 /* Info.plist */,
 				B08000B52937FCF900CB0AA5 /* CryptoKeeper.xcdatamodeld */,
 			);
@@ -133,27 +215,24 @@
 			isa = PBXGroup;
 			children = (
 				B08000BA2937FCFC00CB0AA5 /* LaunchScreen.storyboard */,
-				B08000AC2937FCF900CB0AA5 /* AppDelegate.swift */,
-				B08000AE2937FCF900CB0AA5 /* SceneDelegate.swift */,
 				B08000B82937FCFC00CB0AA5 /* Assets.xcassets */,
 			);
 			path = Support;
 			sourceTree = "<group>";
 		};
-		B08000C62938ACD900CB0AA5 /* Screens */ = {
+		B08000C62938ACD900CB0AA5 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
-				B08000C32938AC2000CB0AA5 /* MainViewController.swift */,
-				B08000E72938B6D400CB0AA5 /* TransactionViewController.swift */,
+				B05348DF294275340099D5B6 /* Main */,
+				B05348E929427F9B0099D5B6 /* Transaction */,
 			);
-			path = Screens;
+			path = Modules;
 			sourceTree = "<group>";
 		};
 		B08000C72938AE5800CB0AA5 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
 				B08000E92938BEBB00CB0AA5 /* UIView+.swift */,
-				B08000F3293936A300CB0AA5 /* UIImage+.swift */,
 				B00CCBA6293A7C2300653D6C /* Date+.swift */,
 				B0817B0F293B884D00A70BA6 /* UIViewController+.swift */,
 				B0817B13293B8CE900A70BA6 /* String+.swift */,
@@ -254,14 +333,6 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
-		B0817B15293BA26600A70BA6 /* Models */ = {
-			isa = PBXGroup;
-			children = (
-				B0817B16293BA27400A70BA6 /* Coin.swift */,
-			);
-			path = Models;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -353,14 +424,19 @@
 				B00CCBA52939F64A00653D6C /* CoreDataManager.swift in Sources */,
 				B08000B72937FCF900CB0AA5 /* CryptoKeeper.xcdatamodeld in Sources */,
 				B0817B09293B7D2300A70BA6 /* CKTitleLabel.swift in Sources */,
+				B05348ED29427FCB0099D5B6 /* MainPresenter.swift in Sources */,
 				B0817B0E293B87C300A70BA6 /* CKBodyLabel.swift in Sources */,
+				B05348E429427AEB0099D5B6 /* Router.swift in Sources */,
+				B05348E129427ACB0099D5B6 /* AssemblyBuilder.swift in Sources */,
+				B05348F529452C8B0099D5B6 /* MainView.swift in Sources */,
 				B08000EA2938BEBB00CB0AA5 /* UIView+.swift in Sources */,
 				B0817B0C293B876400A70BA6 /* ContainerView.swift in Sources */,
 				B0817B10293B884D00A70BA6 /* UIViewController+.swift in Sources */,
-				B08000F4293936A300CB0AA5 /* UIImage+.swift in Sources */,
+				B0ED8F922946428300572512 /* MainViewContorller+TableView.swift in Sources */,
 				B08000AF2937FCF900CB0AA5 /* SceneDelegate.swift in Sources */,
 				B0817B12293B8A3C00A70BA6 /* CKButton.swift in Sources */,
 				B08000E82938B6D400CB0AA5 /* TransactionViewController.swift in Sources */,
+				B05348EF2943688D0099D5B6 /* TransactionPresenter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -505,8 +581,8 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = "";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -534,8 +610,8 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = "";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

@@ -7,10 +7,11 @@
 
 import UIKit
 
-class NetworkManager {
-    static let shared = NetworkManager()
-    private init() {}
-    
+protocol NetworkManagerProtocol {
+    func fetchBTCprice(completion: @escaping(Result<Double, CKError>) -> Void)
+}
+
+class NetworkManager: NetworkManagerProtocol {
     func fetchBTCprice(completion: @escaping (Result<Double, CKError>) -> Void) {
         guard let url = CryptoConstants.getCoinURL().url else  {
             return completion(.failure(.unableToComplete))
@@ -36,6 +37,3 @@ class NetworkManager {
         }.resume()
     }
 }
-
-
-
